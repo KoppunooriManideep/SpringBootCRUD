@@ -31,7 +31,7 @@ public class User {
 	{
 		
 	}
-
+	
 	public User(String name, int age, String sex, String address) {
 		super();
 		this.name = name;
