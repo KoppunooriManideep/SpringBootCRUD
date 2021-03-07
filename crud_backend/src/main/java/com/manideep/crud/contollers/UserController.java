@@ -50,7 +50,7 @@ public class UserController {
 	}
 	
 	
-	//Delete User
+	//Update User
 	@PutMapping("/users/{id}")
 	public ResponseEntity<User> updateUser(@PathVariable long id,@RequestBody User userDetails)
 	{
@@ -66,7 +66,7 @@ public class UserController {
 		return new ResponseEntity<User>(updatedUser,HttpStatus.OK);
 	}
 	
-	//
+	//Delete User
 	@DeleteMapping("clients/{id}")
 	public ResponseEntity<User> deleteUser(@PathVariable long id)
 	{
